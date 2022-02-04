@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <style>body {
+      background-color: #dfe3ee;
+    }
+    #row1 {
+      margin: 20px;
+    }
+    #f {
+      color: #3b5998;
+      text-align: center;
+    }
+    #form1 {
+      background-color: #ffff;
+      margin: 30px auto 0;
+      padding: 15px;
+      border-radius: 20px;
+      width: 350px;
+      box-shadow: 5px 5px 5px grey;
+    }
+    .col-md-6 {
+      margin-top: 10px;
+    }
+    #np {
+      margin: 10px;
+    }
+    input[type="password"],
+    input[type="email"] {
+      width: 320px;
+    }
+    h4,
+    h6 {
+      text-align: center;
+    }
+    #em {
+      margin-top: 10px;
+    }
+    #button {
+      margin: 15px;
+    
+      background-color: #1c9f13;
+      text-align: center;
+    }
+    #linkf {
+      margin: 10px;
+      text-align: center;
+    }
+    .gender {
+      margin: 10px;
+      display: grid;
+      grid-template-columns: repeat(3, 100px);
+    }
+    </style>
+    <title>Facebook</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row" id="row1">
+           <div class="col-4"></div>
+           <div class="col-4">
+               <h2 id="f"><strong>facebook</strong></h2>
+
+               <form action="#" id="form1">
+           <!-- heading of form -->
+<!-- this is ehading code -->
+                   <h4>Create an account</h4>
+                   <h6>It's quick and easy</h6>
+
+                   <!-- first name surname  -->
+
+                   <div class="row">
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="First name" aria-label="First name" >
+                    </div>
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" >
+                    </div>
+                  </div>
+                  
+                  <!-- email password -->
+                  
+                  <div class="col-md-6" >
+                    
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email Id">
+                  </div>
+                  <div class="col-md-6" >
+                    
+                    <input type="password" class="form-control" id="inputPassword4" placeholder="Password" >
+                  </div>
+               <!-- gender -->
+               <section class="gender">
+               <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                <label class="form-check-label" for="exampleRadios1">
+                  Female
+                </label>
+              </div>
+            
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+              <label class="form-check-label" for="exampleRadios2">
+                Male
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+              <label class="form-check-label" for="exampleRadios3">
+                Custom
+              </label>
+            </div>
+        </section>
+                  <!-- button -->
+                  <div class="d-grid gap-2">
+                    <button class="btn btn-primary" type="button" id="button">Sign Up</button>
+                    
+                  </div>
+                  
+                  <div id="linkf">
+                      <a href="#">Already have an account?</a>
+                  </div>
+                  
+                  
+               </form>
+           </div>
+           <div class="col-4"></div>
+        </div>
+    </div>
+</body>
+</html>
